@@ -1,0 +1,94 @@
+div[data-key="65"]{
+  background-image: url("./assets/images/tekken3.png");
+}
+div[data-key="83"] {
+  background-image: url("./assets/images/kazuya2.png");
+}
+div[data-key="68"] {
+  background-image: url("./assets/images/yoshimitsu.png");
+}
+div[data-key="70"] {
+  background-image: url("./assets/images/gunjack.png");
+}
+div[data-key="72"] {
+  background-image: url("./assets/images/heihachi2.png");
+}
+div[data-key="74"] {
+  background-image: url("./assets/images/law1.png");
+}
+div[data-key="75"] {
+  background-image: url("./assets/images/heihachi1.png");
+}
+div[data-key="76"] {
+  background-image: url("./assets/images/kazuya1.png");
+}
+div[data-key="81"] {
+  background-image: url("./assets/images/law3.png");
+}
+div[data-key="87"] {
+  background-image: url("./assets/images/king3.png");
+}
+div[data-key="69"] {
+  background-image: url("./assets/images/law2.png");
+}
+div[data-key="82"] {
+  background-image: url("./assets/images/law4.jpg");
+}
+div[data-key="85"] {
+  background-image: url("./assets/images/king2.png");
+}
+div[data-key="73"] {
+  background-image: url("./assets/images/akuma.png");
+}
+div[data-key="79"] {
+  background-image: url("./assets/images/menu.png");
+}
+div[data-key="80"] {
+  background-image: url("./assets/images/kazuya3.jpg");
+}
+div[data-key="67"] {
+  background-image: url("./assets/images/geese.png");
+}
+div[data-key="86"] {
+  background-image: url("./assets/images/king1.png");
+}
+div[data-key="66"] {
+  background-image: url("./assets/images/chicken.png");
+}
+div[data-key="78"] {
+  background-image: url("./assets/images/Bryan.png");
+}
+
+.soundboard {
+  display:flex;
+  flex-direction: column;
+  
+}
+.row {
+  display:flex;
+  justify-content: space-around;
+}
+.btn {
+  width:100px;
+  height:100px;
+  border: .4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  transition: all .17s ease;
+}
+
+
+.playing { 
+  transform: scale(1.1);
+  border-color: #ff3131;
+  box-shadow: 0 0 1rem #ff3131
+}
+
+kbd {
+  margin-top: 32px;
+  display: block;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  text-align: center;
+}
